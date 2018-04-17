@@ -5,3 +5,104 @@
 
 body
   background-color: $brand-color
+
+.flex
+  display: flex
+  align-items: center
+
+ul li
+  display: block
+  padding: 16px 20px
+  background: #F3F3F3
+
+
+.header-nav ul li:hover
+  background: #4848F0
+  transition: .3s ease-in-out
+
+
+.header-nav li:hover a
+  color: #fff
+  transition: .3s ease-in-out
+
+
+label
+  font-size: 20px
+  color: #4848F0
+
+
+ul li a
+  text-decoration: none
+  color: #95959E
+
+
+
+
+a:hover
+  color: #FFFFFF
+  transition: .3s ease-in-out
+
+
+header
+  display: flex
+  align-items: center
+
+
+.header-nav
+  display: flex
+  align-items: center
+  position: fixed
+  width: 100%
+
+
+.nav-wrapper
+  display: flex
+  align-items: center
+  height: 100px
+  background: #fff
+  position: fixed
+  width: 100%
+  top: 0
+  z-index: 1
+
+
+.logo
+  display: flex
+  justify-content: flex-start
+  flex: 1
+  padding: 0 20px
+
+
+/* Mobile Menu Styles*/
+
+.mobile-menu
+  display: flex
+  justify-content: flex-end
+
+
+label
+  display: block
+  cursor: pointer
+  padding: 0 20px
+
+
+.menu
+  width: 100%
+  height: 100px
+  position: absolute
+  background: #F3F3F3
+  top: -50px
+  transition: all .3s ease-in-out
+  -webkit-transition: all .3s ease-in-out
+  -moz-transition: all .3s ease-in-out
+  -ms-transition: all .3s ease-in-out
+  -o-transition: all .3s ease-in-out
+
+
+#toggle
+  display: none
+
+
+#toggle:checked ~ .menu
+  position: absolute
+  top: 100px
