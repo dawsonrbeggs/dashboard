@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;AAAA,KAAK;EACH,gBAAgB,ECYX,IAAI",
+"sources": ["../sass/2-layouts/_main-layout.sass","../sass/_variables.sass"],
+"names": [],
+"file": "app.css"
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;AAAA,IAAI;EACF,gBAAgB,ECSJ,IAAI",
+"sources": ["2-layouts/_main-layout.sass","_variables.sass"],
+"names": [],
+"file": "css"
+}
