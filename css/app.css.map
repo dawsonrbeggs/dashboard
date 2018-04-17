@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": ";;;AAAA,CAAC;EACC,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;AAEZ,IAAI;EACF,gBAAgB,ECIJ,IAAI",
+"sources": ["../sass/2-layouts/_main-layout.sass","../sass/_variables.sass"],
 "names": [],
 "file": "app.css"
 }
